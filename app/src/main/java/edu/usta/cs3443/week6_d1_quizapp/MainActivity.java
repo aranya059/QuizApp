@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(getAnswer()){
-                    Toast.makeText(v.getContext(), "Yay!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(v.getContext(), "Yay! Correct answer", Toast.LENGTH_LONG).show();
                 }
                 else {
                     Toast.makeText(v.getContext(), "Try again!", Toast.LENGTH_LONG).show();
