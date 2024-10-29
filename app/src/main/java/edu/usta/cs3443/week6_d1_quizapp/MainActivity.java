@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(v.getContext(), "Yay! Correct answer", Toast.LENGTH_LONG).show();
                 }
                 else {
-                    Toast.makeText(v.getContext(), "Try again!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(v.getContext(), "Try again! Wrong answer", Toast.LENGTH_LONG).show();
                 }
             }
         });
